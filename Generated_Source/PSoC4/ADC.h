@@ -135,7 +135,7 @@ typedef struct
 #define ADC_TOTAL_CHANNELS_NUM             (4u)
 #define ADC_SEQUENCED_CHANNELS_NUM         (4u)
 #define ADC_DEFAULT_EN_CHANNELS            (15u)
-#define ADC_NOMINAL_CLOCK_FREQ             (6000000)
+#define ADC_NOMINAL_CLOCK_FREQ             (1500000)
 #define ADC_INJ_CHANNEL_ENABLED            (0u)
 #define ADC_IRQ_REMOVE                     (0u)
 

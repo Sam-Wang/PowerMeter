@@ -120,10 +120,10 @@
 
 /* ADC_intClock */
 #define ADC_intClock__DIVIDER_MASK 0x0000FFFFu
-#define ADC_intClock__ENABLE CYREG_CLK_DIVIDER_A00
+#define ADC_intClock__ENABLE CYREG_CLK_DIVIDER_B00
 #define ADC_intClock__ENABLE_MASK 0x80000000u
 #define ADC_intClock__MASK 0x80000000u
-#define ADC_intClock__REGISTER CYREG_CLK_DIVIDER_A00
+#define ADC_intClock__REGISTER CYREG_CLK_DIVIDER_B00
 
 /* ADC_IRQ */
 #define ADC_IRQ__INTC_CLR_EN_REG CYREG_CM0_ICER
@@ -468,10 +468,10 @@
 
 /* Host_UART_Clock */
 #define Host_UART_Clock__DIVIDER_MASK 0x0000FFFFu
-#define Host_UART_Clock__ENABLE CYREG_CLK_DIVIDER_B00
+#define Host_UART_Clock__ENABLE CYREG_CLK_DIVIDER_A00
 #define Host_UART_Clock__ENABLE_MASK 0x80000000u
 #define Host_UART_Clock__MASK 0x80000000u
-#define Host_UART_Clock__REGISTER CYREG_CLK_DIVIDER_B00
+#define Host_UART_Clock__REGISTER CYREG_CLK_DIVIDER_A00
 
 /* Host_UART_rx */
 #define Host_UART_rx__0__DM__MASK 0x07u
